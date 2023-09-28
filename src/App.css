@@ -176,3 +176,14 @@ nav ul li {
   font-size: 25px;
 }
 
+footer {
+  background-color: brown;
+  min-height: 300px;
+  width: 100%;
+}
+
+footer h1 {
+  color: white;
+  padding-top: 30px;
+  text-align: center;
+}
