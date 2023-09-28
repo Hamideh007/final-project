@@ -78,3 +78,101 @@ nav ul li {
   padding-top: 80px;
   min-height: 700px;
 }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: rgb(161, 45, 45);
+  padding: 20px;
+  color: white;
+  font-size: 18px;
+  width: 100%;
+  z-index: 1;
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+}
+
+.navbar ul {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 20px;
+  cursor: pointer;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 0px 30px;
+}
+
+.main {
+  position: relative;
+  width: 100%;
+  top: 61px;
+}
+
+.main {
+  background-image: url("https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=");
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subheader {
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero input {
+  margin-top: 20px;
+  width: 40%;
+  padding: 10px 20px;
+  border: 3px solid brown;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+}
+
+.subtitle {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-section {
+  padding-top: 80px;
+  min-height: 700px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  grid-gap: 30px;
+  margin: 4rem;
+}
+
+.grid div {
+  background-color: black;
+  width: 100%;
+  height: 200px;
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 25px;
+}
+
