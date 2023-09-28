@@ -33,3 +33,48 @@ nav ul li {
   list-style: none;
   padding: 0px 30px;
 }
+
+.main {
+  position: relative;
+  width: 100%;
+  top: 61px;
+}
+
+.main {
+  background-image: url("https://media.istockphoto.com/id/1341408852/video/colored-smoke-on-a-dark-background-blue-and-red-light-with-smoke.jpg?s=640x640&k=20&c=v2DQUY8IVbli_6FH_9KAs6YWRXlDdYiBJHfp7JFh7NY=");
+  width: 100%;
+  min-height: 550px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.subheader {
+  color: white;
+}
+
+.hero {
+  text-align: center;
+  padding-top: 200px;
+}
+
+.hero input {
+  margin-top: 20px;
+  width: 40%;
+  padding: 10px 20px;
+  border: 3px solid brown;
+  font-size: 16px;
+  border-radius: 40px;
+  outline: none;
+}
+
+.subtitle {
+  margin-top: 30px;
+  text-align: center;
+  font-size: 30px;
+}
+
+.main-section {
+  padding-top: 80px;
+  min-height: 700px;
+}
